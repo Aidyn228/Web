@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+<video autoplay muted loop id="myVideo">
+  <source src="pollution.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<div class="content">
+  <h1>Influence of humankind on nature</h1>
+  <p>
+Welcome to a fascinating exploration of humanity's impact on our planet - our home, Earth. With every day we live, we humans interact with the environment, forming a unique mark on this amazing blue planet.
+This impact, in turn, has diverse consequences, both for us and for nature itself.</p>
+<p>The main goal of this project is to show how destructive our influence can be not only directly on the flora and fauna of our beautiful planet, but also how destructive it can be for us in the end<p>
+<button id="myBtn" onclick="window.location.href='main.html'">Start</button> </div>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 40px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+<body>
+
+<div class="navbar">
+  <a class="active" href="main.html"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="solution.html"><i class="fa fa-fw fa-search"></i> Solutions</a>
+  <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+  <a href="quiz1.html"><i class="fa fa-check-square"></i> Quiz</a>
+</div>
+
+<div class="main">
+
+<h1 style="text-align:center">How humanity affects on flora and fauna of Earth</h1>
+<hr>
+<h2 style="text-align:center">Flora</h2>
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="biodiversity.jpg" alt="Mountains" style="width:220px;height:220px; border:2px solid #04AA6D ">
+      <h3>Loss of Biodiversity</h3>
+      <p>Deforestation leads to the destruction of diverse ecosystems that support a wide variety of plant species. Many plants, including those with potential medicinal properties, can be lost before they are even discovered and studied.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="ecosystem.jpeg" alt="Lights" style="width:220px;height:220px; border:2px solid #04AA6D">
+      <h3>Disruption of Ecosystems</h3>
+      <p>Forests are complex ecosystems where plants interact with each other, as well as with animals and microorganisms. The removal of large areas of forest disrupts these intricate relationships, leading to cascading effects on the entire ecosystem.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="climate.jpeg" alt="Nature" style="width:220px;height:220px; border:2px solid #04AA6D ">
+      <h3>Climate Change Impact</h3>
+      <p>Trees play a crucial role in regulating the Earth's climate by absorbing carbon dioxide during photosynthesis. The removal of forests contributes to increased levels of carbon dioxide in the atmosphere, exacerbating climate change.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="soil.jpeg" alt="Mountains" style="width:220px;height:220px; border:2px solid #04AA6D ">
+      <h3>Soil Erosion</h3>
+      <p>Tree roots help bind the soil together, preventing erosion. Deforestation can result in soil degradation and increased vulnerability to erosion, negatively impacting plant life and reducing the fertility of the land.</p>
+    </div>
+  </div>
+</div>
+<!-- END GRID -->
+<hr>
+<h2 style="text-align:center">Fauna</h2>
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="habitat.jpg" alt="Mountains" style="width:220px;height:220px; border:2px solid #04AA6D">
+      <h3>Habitat Destruction and Fragmentation</h3>
+      <p>Human activities, such as deforestation, urbanization, and infrastructure development, lead to the destruction and fragmentation of natural habitats. This disruption often isolates populations of fauna, making it difficult for them to find mates, food, and suitable environments for survival. Habitat loss is a significant contributor to the decline of many species and can lead to increased vulnerability to extinction.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="pollution.jpeg" alt="Lights" style="width:220px;height:220px; border:2px solid #04AA6D">
+      <h3>Pollution and Contamination</h3>
+      <p>Human-generated pollution, including industrial discharges, agricultural runoff, and plastic waste, adversely affects wildlife. Pollutants can contaminate water sources, soil, and air, harming fauna through direct exposure or by entering the food chain. For example, chemicals like pesticides and heavy metals can accumulate in the tissues of animals, leading to health issues and population declines.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="hunter.jpg" alt="Nature" style="width:220px;height:220px; border:2px solid #04AA6D">
+      <h3>Overexploitation and Hunting</h3>
+      <p>Human activities, such as overhunting and illegal wildlife trade, can lead to the overexploitation of animal populations. This has resulted in the decline and extinction of many species, threatening biodiversity. Overhunting disrupts ecosystems by removing key species, affecting the balance between predators and prey and impacting the overall health of ecosystems.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="climate1.jpeg" alt="Mountains" style="width:220px;height:220px; border:2px solid #04AA6D">
+      <h3>Climate Change</h3>
+      <p>Human-induced climate change is a significant factor affecting fauna globally. Changes in temperature, precipitation patterns, and sea levels can alter the distribution and behavior of animal species. Some may face challenges in adapting to rapidly changing conditions, leading to shifts in their ranges or, in extreme cases, extinction. Climate change also influences food availability, migration patterns, and the timing of reproductive events, impacting various aspects of animal life.</p>
+    </div>
+  </div>
+</div>
+<!-- END GRID -->
+</div>
+</body>
+</html>
